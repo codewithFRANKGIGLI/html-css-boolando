@@ -5,3 +5,10 @@
     padding: 0;
 }
 /* #endregion /RESET */
+
+/* #region DEBUG */
+
+.debug {
+    border: 2px dashed red;
+}
+/* #endregion /DEBUG */
