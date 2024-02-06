@@ -12,3 +12,8 @@
     border: 2px dashed red;
 }
 /* #endregion /DEBUG */
+
+/* #region HEADER */
+header {
+    background-color: #ff6900;
+}
