@@ -48,6 +48,18 @@ header .container {
     font-size: small;
     font-weight: bold;
 }
+
+.departments {
+    width: 20%;
+}
+.menu {
+    width: 20%;
+    text-align: right;
+}
+.logo {
+    width: 60%;
+    text-align: center;
+}
 .menu i, .departments a {
     padding: 0 5px;
 }
@@ -85,6 +97,7 @@ header .container {
 .discount .sustainability {
     background-color: green;
     padding: 3px 5px;
+    border-left: 1px solid white;
 }
 .card .like {
     position: absolute;
