@@ -13,7 +13,44 @@
 }
 /* #endregion /DEBUG */
 
+/* #region GENERAL */
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* #endregion GENERAL */
+
+/* #region TYPOGRAPHY */
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+body {
+    font-family: sans-serif;
+}
+/* #endregion TYPOGRAPHY */
+
 /* #region HEADER */
 header {
     background-color: #ff6900;
 }
+header .container {
+    padding: 10px;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+}
+.menu i {
+    padding: 0 5px;
+}
+.logo img {
+    max-width: 140px;
+}
+
+/* #endregion HEADER */
+
