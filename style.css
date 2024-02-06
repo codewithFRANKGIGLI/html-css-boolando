@@ -70,28 +70,54 @@ header .container {
 }
 .card .discount {
     position: absolute;
+    bottom: 40px;
+    left: 0;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;
+}
+.discount .howmuch {
+    background-color: red;
+    padding: 3px 5px;
+}
+.discount .sustainability {
     background-color: green;
-    top: 0;
-    right: 0;
+    padding: 3px 5px;
 }
 .card .like {
     position: absolute;
-    bottom: 10px;
-    width: 100%;
+    top: 10px;
+    right: 0;
+    max-width: 100%;
     text-align: center;
-    display: none;
+    background-color: white;
+    width: 30px;
+    line-height: 30px;
+    font-size: 25px;
 }
 .card:hover .like {
     display: block;
+    color: red;
 }
 .card .card-image-hover {
     display: none;
 }
 .card:hover .card-image-hover {
-    display: block;
+    display: inline-block;
 }
 .card:hover .card-image-default {
     display: none;
+}
+.col-33 p {
+    display: inline;
+    font-size: 12px;
+}
+.final-price {
+    color: red;
+}
+.col-33 >:last-child {
+    text-decoration: line-through;
 }
 /* #endregion CARD */
 
