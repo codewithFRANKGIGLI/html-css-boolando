@@ -55,3 +55,45 @@ header .container {
 }
 /* #endregion HEADER */
 
+/* #region MAIN */
+
+.col-33 {
+    width: calc(100% / 3);
+}
+
+/* #region CARD */
+.card {
+    position: relative;
+}
+.card img {
+    width: 100%;
+}
+.card .discount {
+    position: absolute;
+    background-color: green;
+    top: 0;
+    right: 0;
+}
+.card .like {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+.card:hover .like {
+    display: block;
+}
+.card .card-image-hover {
+    display: none;
+}
+.card:hover .card-image-hover {
+    display: block;
+}
+.card:hover .card-image-default {
+    display: none;
+}
+/* #endregion CARD */
+
+/* #endregion MAIN */
+
