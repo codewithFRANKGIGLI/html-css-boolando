@@ -15,7 +15,7 @@
 
 /* #region GENERAL */
 .container {
-    max-width: 1160px;
+    max-width: 1380px;
     margin: 0 auto;
     padding: 40px 0;
 }
@@ -42,6 +42,9 @@ body {
 header {
     background-color: #ff6900;
     position: sticky;
+    top: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    z-index: 2;
 }
 header .container {
     padding: 10px 0;
