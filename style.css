@@ -110,9 +110,9 @@ header .container {
     max-width: 100%;
     text-align: center;
     background-color: white;
-    width: 30px;
-    line-height: 30px;
-    font-size: 25px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 35px;
 }
 .card:hover .like {
     display: block;
